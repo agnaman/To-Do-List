@@ -1,0 +1,21 @@
+<%- include("header") -%>
+	
+	<% if(locals.message){ %>
+		<div class="alert alert-info" role="alert">
+			<strong>Error!</strong> <%=message.error%>
+		</div>
+	<% } %>
+	
+	<a href = "/" class = "homeButton">Home</a>
+	
+	<div class = "box">
+		<div class = "bgWhite">
+			<form class = "item" action = "/enterId" method = "POST">
+				<input type = "number" name = "clientId" placeholder = "Enter your ID" autocomplete = "off" >
+				<button type = "submit" name = "list" value = "" >+</button>
+			</form>
+		</div>
+	</div>
+	
+		
+<%- include("footer") -%>

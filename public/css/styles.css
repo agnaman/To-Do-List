@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+html{
+	background-color: #E4E9FD;
+	background-image: -webkit-linear-gradient(65deg, #31708E 50%, #E4E9FD 50%);
+	/* #E4E9FD */
+	min-height: 100px;
+	font-family: 'RocknRoll One', sans-serif;
+}
+
+h1{
+	color: #fff;
+	padding: 10px;
+}
+
+.box{
+	max-width: 400px;
+	margin: 50px auto;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading{
+	background-color: #31708E;
+	text-align: center;
+}
+
+.item{
+	min-height: 70px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #F1F1F1;
+}
+
+/* This will look out for all the items in the div and will apply the changes in the last item specifically */
+.item:last-child {
+	border-bottom: 0;
+}
+
+/* Gonna look for the input that is in a checked state  */
+/* + sign selects all the <p> elements that are placed immediately after checked inputs */
+input:checked+p {
+	text-decoration: line-through;
+	text-decoration-color: #31708E;
+}
+
+input[type="checkbox"]{
+	margin: 20px;
+}
+
+p{
+	margin: 0;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 200;
+	color: #00204a;
+}
+
+form.item{
+	text-align: center;
+	margin-left: 20px;
+}
+
+button{
+	min-height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	border-color: transparent;
+	background-color: #31708E;
+	color: #fff;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 0;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+input[type = "text"]{
+	text-align: center;
+	height: 60px;
+	top: 10px;
+	border: none;
+	background: transparent;
+	font-size: 20px;
+	font-weight: 200;
+	width: 313px;
+}
+
+input[type = "text"]:focus {
+	outline: none;
+	box-shadow: inset 0 -3px 0 0 #31708E;
+}
+
+/* Sudeo selector which targets the placeholder in text input */
+::placeholder{
+	color: grey;
+	opacity: 1;
+}
+
+footer{
+	color: #fff;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+}
+
+
+
+
+.center{
+	position: relative;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.center .bgWhite{
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	max-width: 600px;
+}
+
+
+.center .bgWhite form .homeInput{
+	padding : 20px 40px;
+	background-color: #31708E; 
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+	margin: 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #fff;
+	border-color: transparent;
+	cursor: pointer;
+}
+
+input[type = "number"]{
+	text-align: center;
+	height: 60px;
+	top: 10px;
+	border: none;
+	background: transparent;
+	font-size: 20px;
+	font-weight: 200;
+	width: 313px;
+}
+
+input[type = "number"]:focus {
+	outline: none;
+	box-shadow: inset 0 -3px 0 0 #31708E;
+}
+
+.itemCenter{
+	display: felx;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+.itemCenter input{
+	display: flex;
+	align-items: left;
+}
+
+
+.box a{
+	text-decoration: none;
+	color: #000;
+}
+
+.homeButton{
+	position: aboslute;
+	left: 0;
+	top: 0;
+	margin: 50px 50px;
+	padding: 12px;
+	background-color: #31708E;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+}
+.homeButton:hover{
+	background-color: #5085A5;
+}
+
+.perfectCenter
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+
+.alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+
+
+#hoverColor:hover{
+	background-color: #8FC1E3;
+}
+
+
+
+
+
+
+/* Selectors Reference */
+/* https://www.w3schools.com/cssref/css_selectors.asp */
+
+
+
