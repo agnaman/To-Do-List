@@ -136,7 +136,7 @@ app.post("/clientLists", function(req, res){
 			doc.lists.push(createHead);
 			doc.save(function(error){
 				if(error){
-					req.flash('error','Wishlist must have a name');
+					req.flash('error','List must have a name');
 					res.locals.message = req.flash();
 					res.render("clientLists", { clientLists : listData});
 				}else{

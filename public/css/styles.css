@@ -1,28 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 
 html{
-	background-color: #E4E9FD;
-	background-image: -webkit-linear-gradient(65deg, #31708E 50%, #E4E9FD 50%);
-	/* #E4E9FD */
+	background-color: #aad8d3;
+	background-image: -webkit-linear-gradient(65deg, #393e46 50%, #aad8d3 50%);
 	min-height: 100px;
 	font-family: 'RocknRoll One', sans-serif;
 }
 
 h1{
-	color: #fff;
+	color: #393e46;
 	padding: 10px;
 }
 
 .box{
 	max-width: 400px;
 	margin: 50px auto;
-	background: #fff;
+	background: #eeeeee;
 	border-radius: 5px;
 	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 #heading{
-	background-color: #31708E;
+	background-color: #00adb5;
 	text-align: center;
 }
 
@@ -42,7 +41,7 @@ h1{
 /* + sign selects all the <p> elements that are placed immediately after checked inputs */
 input:checked+p {
 	text-decoration: line-through;
-	text-decoration-color: #31708E;
+	text-decoration-color: #393e46;
 }
 
 input[type="checkbox"]{
@@ -67,9 +66,9 @@ button{
 	width: 50px;
 	border-radius: 50%;
 	border-color: transparent;
-	background-color: #31708E;
-	color: #fff;
-	font-size: 30px;
+	background-color: #00adb5;
+	color: #393e46;
+	font-size: 35px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -93,7 +92,7 @@ input[type = "text"]{
 
 input[type = "text"]:focus {
 	outline: none;
-	box-shadow: inset 0 -3px 0 0 #31708E;
+	box-shadow: inset 0 -3px 0 0 #393e46;
 }
 
 /* Sudeo selector which targets the placeholder in text input */
@@ -118,7 +117,7 @@ footer{
 }
 
 .center .bgWhite{
-	background: #fff;
+	background: #eeeeee;
 	border-radius: 5px;
 	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 	position: relative;
@@ -132,7 +131,7 @@ footer{
 
 .center .bgWhite form .homeInput{
 	padding : 20px 40px;
-	background-color: #31708E; 
+	background-color: #00adb5; 
 	border-radius: 5px;
 	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 	margin: 10px;
@@ -140,7 +139,7 @@ footer{
 	font-size: 18px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	color: #fff;
+	color: #393e46;
 	border-color: transparent;
 	cursor: pointer;
 }
@@ -158,7 +157,7 @@ input[type = "number"]{
 
 input[type = "number"]:focus {
 	outline: none;
-	box-shadow: inset 0 -3px 0 0 #31708E;
+	box-shadow: inset 0 -3px 0 0 #393e46;
 }
 
 .itemCenter{
@@ -186,17 +185,18 @@ input[type = "number"]:focus {
 	top: 0;
 	margin: 50px 50px;
 	padding: 12px;
-	background-color: #31708E;
-	color: #fff;
+	background-color: #00adb5;
+	color: #393e46;
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: 1px;
 	text-decoration: none;
 	border-radius: 5px;
 	text-transform: uppercase;
 }
 .homeButton:hover{
-	background-color: #5085A5;
+	background-color: #393e46;
+	color: #eeeeee;
 }
 
 .perfectCenter
@@ -233,10 +233,12 @@ input[type = "number"]:focus {
 
 
 #hoverColor:hover{
-	background-color: #8FC1E3;
+	background-color: #aad8d3;
 }
 
-
+input[type=submit]{
+    font-weight: 600;
+}
 
 
 
